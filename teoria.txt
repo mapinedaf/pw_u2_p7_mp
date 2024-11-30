@@ -46,9 +46,61 @@ Una vez que tengo maquetada la pagina se empieza a dar comportamiento con js
 --------------------------------------------------------------
 
 UNIDAD 2
-
+29/11/2024 
 Acutalmente no se usa diretamente javascript css y html puro para paginas empresariales
 pero aun se usa para paginas web estaticas que no tienen una logica de negocio
+Es suficiente construr sin un framework porque nomaneja transacciones y logica
+fuerte. El desarollo de pagina web estatica es mucho mas simple.  
 
+Las aplicaciones empresariales tienen logica de negocio. Apliaciones como core bancario,
+cosas muy grandes. Es posible haerlo con html css y JS pero es mas complejo y demoroso. 
+La industria ahora trabaja con frameworks que hacen mas rapido el trabajo. Estos frameworks
+estan pensados para manejar transacciones y sesiones. 
+
+Un framework es un conjunbto de librerias y especificaciones que permiten ejecutar desar-
+ollar constuir algun componente tecnologico en especifico. 
+
+para los frameworks de aplicaciones web se necesita uns ervidor que tenga un interprete 
+que entienda las librerias de framework y lo convierta en html css y js para que el nave-
+gador del cliente lo entienda. 
+
+Dentro de la industria existen multiples frameworks para programacion web, thymeleaf, JSF 
+reachface. Existe una tendencia fuerte a los frameworks basados en jacascript, javascript
+es un lenguaje de programacin muy versatil que permite hacer de manera dinamica la progra-
+macion de pagians web. Con Js se puede incrustar elmentos. Hay librerias que permiten 
+hacer iteraciones. Da la facilidad de hacer componentes dinamicos.  
+
+Existen 3 frameworks acruales basados en javascript: react.js, Angular y vue.js. Cada uno
+de estos tiene sus pros y contra, el que domina el mercado es react.js, segundo es vue y
+tercero es Angular. Vue tiene 2 elmentos fuertes: la cantidad de documentacion y su curva
+de aprendizaje es bastante corta, mas corta que react y angular.  
+
+Angular utiliza un lenguaje con funciones mas avanzadas llamado TypeScript, dentro de 
+react y vue tambien se puede usar typescript pero estan pensados en usarlos con JS. 
+AngularJs corresponde a una version antigua de angular. AngularJS realizo muchos cambios
+en el framework que deciodio cambiarse de nombre a Angular. AngularJS no es lo mismo que
+Angular. Son dos frameworks diferentes. AngularJS no esta dentro del top 3.
+
+Caracteristicas de vue:
+* Facil de iniciar
+* versatil
+* Rendimiento
+
+Vue se considera como FRAMEWORK PROGRESIVO. La aplicacion web no necesariamente debe ser 
+creada desde cero con vuejs. Se puede ir agregando componentes de vuejs progesivamente. 
+
+DOM Document Object Model, es la estructura de un documento html, es una estructura 
+jerarquica de arbol donde cada nodo es un objeto html. El metodo getElementById recorre 
+el DOM para encontrar el elemento. Vue tiene un alto rendimiento porque el DOM que maneja
+es extremadamente rapido. 
+
+Vue tiene 2 formas de implementarse. La forma naive es atravez de una referencia a un CDN 
+content delivery network, es un sistema de entrga de contenido a travez de la red. puedo
+trabajar con vue a travez de la red haciendo unicamento referenicia a la libreria de vue.
+Esto genera una dependencia de la CDN. La segunda forma de implementar es mediante la 
+instalacion de todas las lirberias del framework de forma local. 
+
+backtick `` comilla incilnada a la izquierda, permite declarar cuaqluier tipo de elemnto
+html 
 
 
