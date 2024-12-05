@@ -103,4 +103,26 @@ instalacion de todas las lirberias del framework de forma local.
 backtick `` comilla incilnada a la izquierda, permite declarar cuaqluier tipo de elemnto
 html 
 
+04/12/24
 
+Vue permite agregar programacion javascript dentro de contenido html mediante programacion
+delcarativa. Para esto vue utiliza {{}}
+
+El contenido que se programa dentro de template es la parte visual, vue nos dice que no 
+vamos a programar html dentro de tmeplate porque es mesclar las cosas. 
+
+vue trabaja con options api , para declarar opciones se separan con coma 
+
+data esta destinada a crar propiedades dentro de vue, son el nexo de comunicacion 
+entre la pagina web y el archivo js, se conocen como propiedades reactivas. 
+las propeidades reactivas permiten mandar informacion entre el codigo js y el html
+para que se interpreten en el html hay que usar {{}}
+
+La opcion de metodos sirve para declarar metodos. Para trabajar el comportamiento de la
+pagina, los eventos y la funcionalidad utiliza un concepto llamado directivas. 
+todas las directivas empiezan con v- 
+para eventos usa v-on esta directiva se usa dentro de cualquier elemento html que genera
+un evento. 
+
+en vue todo cambio realizado en javascript inmediatamente de manera reactiva se refleja 
+en la parte visual. automaticamente se sincroniza. Basta cambair el dato en js 
