@@ -126,3 +126,19 @@ un evento.
 
 en vue todo cambio realizado en javascript inmediatamente de manera reactiva se refleja 
 en la parte visual. automaticamente se sincroniza. Basta cambair el dato en js 
+
+05-12-24
+directivas
+Cada directiva tiene una utilidad especifica ej v-on eventos v-for iteraciones
+
+v-model permite enlazar un elemento html de entrada en la vista con un elemento js normalmente
+este elmeneto es una propiedad reactiva. Estos elmento incluyen input, text area, etc. 
+
+Modificadores de eventos
+
+vue tiene directivas para modificar html dependiendo de un booleano ej cosntrtuir un boton
+solo si autor es diferente de null
+
+la diferencia entre v-if y v-show es que v-if no construlye el elemetno vshow no lo muestra
+es mas costoso crear y eliminar que solo ocultar 
+si se usa poco es mejor eliminar, si se usa bastante es mejor ocularla
