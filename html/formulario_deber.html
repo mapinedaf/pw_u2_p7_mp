@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+
+    <header></header>
+    <nav></nav>
+
+    <section>
+        <div style="display: flex;"  id = "myApp" >
+            <span style=" margin-right:10vw">
+                <p>Nombre: </p>
+                <input type="text" v-model="inputNombre">
+                <p>Apellido: </p>
+                <input type="text" v-model="inputApellido">
+                <p>Hobby: </p>
+                <input type="text" v-model="inputHobby">
+                <p>Lugar de nacimiento: </p>
+                <input type="text" v-model="inputLugarNacimiento">
+                <hr>
+                <button v-on:click="guardarPersona">Guardar</button>
+            </span>
+            <span>
+                <h4>Personas</h4>
+                <hr>
+                <ol >
+                    <li v-for="persona in listaPersonas">
+                        <ul>
+                            <li>Nombre: {{persona.nombre}}</li>
+                            <li>Apellido: {{persona.apellido}}</li>
+                            <li>Hobby: {{persona.hobby}}</li>
+                            <li>Lugar de Nacimiento: {{persona.lugarNacimiento}}</li>
+                        </ul>
+                        <hr>
+                    </li>
+                </ol>
+            </span>
+        </div>  
+
+    </section>
+
+    <footer></footer>
+</body>
+
+
+<script src="../js/formularioDeber.js"></script>
+</html>
